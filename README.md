@@ -4,28 +4,28 @@ To setup the environment with required packages, grab a copy of anaconda from ht
 
 Unix:
 
-source \path\to\anaconda\bin\activate
+>source \path\to\anaconda\bin\activate
 
 Windows
 
-\path\to\anaconda\scripts\activate
+>\path\to\anaconda\scripts\activate
 
 Create a new enviroment "bionavi" using following command:
 
-conda create -n bionavi python=3 scikit-learn pandas mkl mkl-service datashader dask pymc3
+>conda create -n bionavi python=3 scikit-learn pandas mkl mkl-service datashader dask pymc3
 
 Then activate it by: Unix:
 
-source \path\to\anaconda\bin\activate bionavi
+>source \path\to\anaconda\bin\activate bionavi
 
 Windows
 
-\path\to\anaconda\scripts\activate bionavi
+>\path\to\anaconda\scripts\activate bionavi
 
 then install remaining packages using commands below:
 
-conda install -c conda-forge -c ioam seaborn geopandas holoviews geoviews pip install graphviz
+>conda install -c conda-forge -c ioam seaborn geopandas holoviews geoviews pip install graphviz
 
 finally run jupyter notebook
 
-jupyter notebook --notebook-dir=/path/to/notebook/folder
+>jupyter notebook --notebook-dir=/path/to/notebook/folder
