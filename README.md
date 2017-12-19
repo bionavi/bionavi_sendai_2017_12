@@ -14,7 +14,8 @@ Create a new enviroment "bionavi" using following command:
 
 >conda create -n bionavi python=3 scikit-learn pandas mkl mkl-service datashader dask pymc3
 
-Then activate it by: Unix:
+Then activate it by: 
+Unix:
 
 >source \path\to\anaconda\bin\activate bionavi
 
